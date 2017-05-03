@@ -141,45 +141,32 @@ body {
 }
 
 header {
-    background-color: url('../img/sky.jpeg');
+    background-image: url('../img/studio-gradient-orange.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-position: center center;  
-}
-
-header h1 {
-    text-align: center;
-    margin: 40vh 0; 
-    margin: 40vh 0 40vh;
-    margin: 40vh 0 40vh 0;
-    margin-top: 40vh; 
-}
-
-h1 {
-    font-size: 60px;
-    color:hotpink;
-}
-
-h2 {
-
-}
-
-h3 {
-
+    height: 75vh;
+    display: block;
+    background-size: cover;
 }
 
 nav {
     background: palevioletred;
-    position: fixed;
+    position: relative;
     top:0;
     left:0;
     right:0;
     width:100%;
 }
 
+nav h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 nav ul {
     list-style: none;
-    text-align: center;
+    text-align: right;
     padding:10px;
 
 }
