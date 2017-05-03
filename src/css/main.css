@@ -136,21 +136,24 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: 'Indie Flower', cursive; 
+    font-family: 'Suez One', serif; 
+    letter-spacing: 1px;
+    background-image: url('../img/homepage orange.jpg'); 
+    height: auto; 
+    background-repeat: no-repeat;
+}
 
+body *{
+    color: white;
 }
 
 header {
-    background-image: url('../img/studio-gradient-orange.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 75vh;
+    
     display: block;
     background-size: cover;
 }
 
 nav {
-    background: palevioletred;
     position: relative;
     top:0;
     left:0;
@@ -188,8 +191,8 @@ article {
 }
 
 article img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 footer {
