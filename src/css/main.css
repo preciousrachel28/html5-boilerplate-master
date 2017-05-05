@@ -136,11 +136,13 @@ textarea {
    ========================================================================== */
 
 body {
-    font-family: 'Suez One', serif; 
+    font-family: 'Roboto', sans-serif; 
     letter-spacing: 1px;
-    background-image: url('../img/homepage orange.jpg'); 
+    background-image: url('../img/homepage.jpg');  
     height: auto; 
     background-repeat: no-repeat;
+    background-position: center bottom; 
+    min-height: 100vh; 
 }
 
 body *{
@@ -151,6 +153,11 @@ header {
     
     display: block;
     background-size: cover;
+}
+
+div#logo {
+    margin: 0.1cm; 
+
 }
 
 nav {
@@ -171,8 +178,21 @@ nav ul {
     list-style: none;
     text-align: right;
     padding:10px;
+    position: fixed;
+    margin: 0.1cm;
+    top: 0;
+    right: 0;
+    left: 1
+    font-size:20px;
 
 }
+
+h2 { font size: 45px;
+    text-align: left;
+    margin: 1cm; 
+
+
+ }
 
 nav li {
     display: inline-block;
