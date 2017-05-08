@@ -138,7 +138,6 @@ textarea {
 body {
     font-family: 'Roboto', sans-serif; 
     letter-spacing: 1px;
-    background-image: url('../img/homepage.jpg');  
     height: auto; 
     background-repeat: no-repeat;
     background-position: center bottom; 
@@ -146,11 +145,12 @@ body {
 }
 
 body *{
-    color: white;
+    color: white; 
 }
 
 header {
-    
+    background-image: url('../img/homepage.jpg');
+    height:100vh;
     display: block;
     background-size: cover;
 }
@@ -177,9 +177,9 @@ nav h1 {
 nav ul {
     list-style: none;
     text-align: right;
-    padding:10px;
+    padding:20px 5px; 
     position: fixed;
-    margin: 0.1cm;
+    margin: 0.5cm;
     top: 0;
     right: 0;
     left: 1
@@ -190,21 +190,46 @@ nav ul {
 h2 { font size: 45px;
     text-align: left;
     margin: 1cm; 
-
-
  }
 
 nav li {
     display: inline-block;
+    padding:20px 10px;  
+
 }
 
 aside {
     background: green;
 }
 
-section {
-    background: blue;
+
+section.grid {
+    text-align: center;
 }
+section.grid div.grid-item {
+    width: 25%;
+    margin: 1%;
+    height: 150px;
+    background: #FA955A; 
+    display: inline-block;
+} 
+
+section.grid div.grid-item.design {
+    background-image: url('../img/people-working.jpg'); 
+    height: 200px
+
+} 
+
+section.grid div.grid-item.strategy{
+    background-image: url('../img/marketing-board-strategy.jpg'); 
+    height: 200px 
+}
+
+section.grid div.grid-item.technology{
+    background-image: url('../img/pexels-photo.jpg'); 
+    height: 200px 
+}
+
 
 article {
     background: orange;
