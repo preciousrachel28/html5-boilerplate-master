@@ -155,9 +155,33 @@ header {
     background-size: cover;
 }
 
-div#logo {
-    margin: 0.1cm; 
+.container{
+    max-width: 1400px;
+    margin: auto;
+    width: 100%;     
+}
 
+.logo{
+    width: 58.5%;
+    float: left;
+}
+
+.menu{
+    width: 40%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding:10px;
+    font-size:20px;
+}
+
+
+    
+
+.logo img{
+    padding-top: 10px
 }
 
 nav {
@@ -175,14 +199,14 @@ nav h1 {
 }
 
 nav ul {
-    list-style: none;
+    /*list-style: none;
     text-align: right;
     padding:20px 5px; 
     position: fixed;
     margin: 0.5cm;
     top: 0;
     right: 0;
-    left: 1
+    left: 1*/
     font-size:20px;
 
 }
