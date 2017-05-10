@@ -177,8 +177,14 @@ nav ul {
     font-size:20px;
 }
 
-
+.menu li a{
+    text-decoration: none;
+}
     
+.menu li a:hover{
+    text-decoration: underline; 
+}
+
 
 .logo img{
     padding-top: 10px
@@ -233,15 +239,33 @@ section.grid {
 section.grid div.grid-item {
     width: 25%;
     margin: 1%;
-    height: 150px;
-    background: #FA955A; 
+    background: #FA955A;  
     display: inline-block;
+    position: relative;
+    overflow: hidden; 
 } 
 
-section.grid div.grid-item.design {
-    background-image: url('../img/people-working.jpg'); 
-    height: 200px
+.grid-item:hover .overlay{
+    display: block;
+}
 
+.grid-item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* transparency */
+    background: rgba(0,0,0,0.8);
+    /*hide by default*/
+    display: none;
+    padding-top: 25% 
+}
+
+.overlay p{color: #FFF;}
+section.grid div.grid-item.design {
+    background-image: url('../img/people-working.jpg');  
+    height:200px;
 } 
 
 section.grid div.grid-item.strategy{
@@ -253,7 +277,6 @@ section.grid div.grid-item.technology{
     background-image: url('../img/pexels-photo.jpg'); 
     height: 200px 
 }
-
 
 article {
     background: orange;
