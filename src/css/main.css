@@ -217,9 +217,11 @@ nav ul {
 
 }
 
-h2 { font size: 45px;
+h2 {
     text-align: left;
-    margin: 1cm; 
+    margin: 1cm;  
+    padding-top:10%;
+    font-size: 25px; 
  }
 
 nav li {
@@ -232,6 +234,11 @@ aside {
     background: green;
 }
 
+h3 {
+    font-size: 20px
+    font color: black; 
+
+}
 
 section.grid {
     text-align: center;
@@ -259,22 +266,35 @@ section.grid div.grid-item {
     background: rgba(0,0,0,0.8);
     /*hide by default*/
     display: none;
-    padding-top: 25% 
+    padding-top: 10% 
+    
+}
+
+.grid-item.design ul li {
+    margin:10px  
+}
+
+.grid-item.strategy ul li {
+    margin: 10px;
+}
+
+.grid-item.technology ul li {
+    margin:10px;
 }
 
 .overlay p{color: #FFF;}
 section.grid div.grid-item.design {
-    background-image: url('../img/people-working.jpg');  
+    background-image: url('../img/people-working-shadow.jpg');  
     height:200px;
 } 
 
 section.grid div.grid-item.strategy{
-    background-image: url('../img/marketing-board-strategy.jpg'); 
+    background-image: url('../img/strategy_shadow.jpg'); 
     height: 200px 
 }
 
 section.grid div.grid-item.technology{
-    background-image: url('../img/pexels-photo.jpg'); 
+    background-image: url('../img/tech_shadow.jpg'); 
     height: 200px 
 }
 
