@@ -213,8 +213,7 @@ nav ul {
     top: 0;
     right: 0;
     left: 1*/
-    font-size:20px;
-
+    font-size:20px; 
 }
 
 h2 {
@@ -227,7 +226,6 @@ h2 {
 nav li {
     display: inline-block;
     padding:20px 10px;  
-
 }
 
 aside {
@@ -340,8 +338,7 @@ section.grid div.grid-item {
     background: rgba(0,0,0,0.8);
     /*hide by default*/
     display: none;
-    padding-top: 10% 
-    
+    padding-top: 10%    
 }
 
 .grid-item.design ul li {
@@ -382,8 +379,18 @@ article img {
 }
 
 footer {
-    background: red;
+    background: #FA955A;
+    float: left;
+    clear: both;
+    width: 100%;
+    text-align: center;
 }
+
+.container {
+    width: 81%;
+    margin:auto; 
+}
+
 
 
 
